@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shaksham Mehra - AI student, builder, and hackathon finalist." />
+    <title>Shaksham Mehra | AI, but make it useful.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#about" aria-label="Shaksham Mehra home">
+        <span class="brand-mark">SM</span>
+        <span>shaksham / mehra</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link active" href="#about" data-view-link="about">01 / about</a>
+        <a class="nav-link" href="#projects" data-view-link="projects">02 / projects</a>
+      </nav>
+      <a class="status-pill" href="mailto:mehrashaksham@gmail.com">
+        <span class="status-dot"></span>
+        available to connect
+      </a>
+    </header>
+
+    <main>
+      <section class="view view-about active" id="about" data-view="about" aria-labelledby="about-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AI student / builder / curious human</p>
+          <h1 id="about-title">I make<br /><em>intelligence</em><br />feel useful.</h1>
+          <p class="intro">I am Shaksham, a B.Tech Artificial Intelligence student at NMIMS. I like the space where clean code, ambitious ideas, and real-world problems collide.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" data-view-link="projects">See selected work <span>-></span></a>
+            <a class="button button-text" href="https://www.linkedin.com/in/shaksham-mehra" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-orbit" aria-label="Animated visual showing a rotating neural network" role="img">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="orbit-core"><span>AI</span><small>in motion</small></div>
+          <span class="orbit-label label-top">learn / build</span>
+          <span class="orbit-label label-bottom">repeat / refine</span>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-block">
+            <span class="block-index">01</span>
+            <h2>Currently exploring</h2>
+            <p>Deep learning, NLP, and the art of turning research-shaped ideas into tools people can actually use.</p>
+          </article>
+          <article class="about-block">
+            <span class="block-index">02</span>
+            <h2>Outside the terminal</h2>
+            <p>Singles pickleball, Indian market charts, and the occasional high-stakes hackathon sprint.</p>
+          </article>
+          <article class="about-block stat-block">
+            <span class="block-index">03</span>
+            <strong>3.61</strong>
+            <p>CGPA / AI &amp; Intelligent Systems</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="view view-projects" id="projects" data-view="projects" aria-labelledby="projects-title" hidden>
+        <div class="projects-heading">
+          <div>
+            <p class="eyebrow">A small archive of experiments</p>
+            <h1 id="projects-title">Things I have<br /><em>made real.</em></h1>
+          </div>
+          <a class="button button-outline" href="https://github.com/maskees" target="_blank" rel="noreferrer">Open GitHub <span>↗</span></a>
+        </div>
+
+        <div class="project-list" id="project-list"></div>
+        <div class="project-footer">
+          <span>More experiments are always in progress.</span>
+          <a href="mailto:mehrashaksham@gmail.com">Start a conversation <span>-></span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Shaksham Mehra</span>
+      <span class="footer-line"></span>
+      <span>Made with curiosity + too much coffee</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
