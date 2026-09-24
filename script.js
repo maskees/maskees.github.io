@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "Neural Vision Lab",
-    description: "A visual playground for understanding image classification, VGG16 architecture, and the ideas behind backpropagation.",
-    tags: ["Python", "Deep Learning", "VGG16"],
-    github: "https://github.com/shaksham-mehra",
-    live: "https://github.com/shaksham-mehra"
+    title: " Self Healing RAG Pipeline",
+    description: "A self-healing retrieval-augmented generation pipeline for improved information retrieval and generation.",
+    tags: ["Python", "Deep Learning", "RAG"],
+    github: "https://github.com/maskees/Self-healing-Rag-pipeline.github.io",
+    live: "https://maskees.github.io/Self-healing-Rag-pipeline.github.io/static/index.html"
   },
   {
     title: "Signal / 01",
